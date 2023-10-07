@@ -52,7 +52,6 @@ def main():
     if(selected == "Home") :
         st.title("Diabetes Prediction Using Machine Learning")
         
-        st.subheader("Author : LAGRE GABBA BERTRAND")
         st.write(" I am happy to see you reading my work. TThe objective of the dataset is to diagnostically predict whether a patient has diabetes based on certain diagnostic measurements included in the dataset. Several constraints were placed on the selection of these instances from a larger database. As data analyst intern at MeriSkill , I am building and a Machine Learning Model to preditc if a person is diabetic or no..")
         st.subheader("Github link  : https://github.com/FoubaDev/MeriSkills.git \n")
        
@@ -61,6 +60,8 @@ def main():
         st.write(df.shape)
     if(selected == "Diabete Prediction") :
     
+        st.write(df)
+        st.write(df.shape)
        
         col1, col2,col3,col4 = st.columns(4)
     
@@ -107,7 +108,7 @@ def main():
         
          st.subheader("Author : LAGRE GABBA BERTRAND")
          st.subheader(" Software Engineer and Data Develper") 
-         st.write("Intern at MerSkill \n")
+         st.write("Data analyst Intern at MerSkill \n")
         
 if __name__=='__main__':
     main()
